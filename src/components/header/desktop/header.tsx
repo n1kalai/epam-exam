@@ -2,7 +2,7 @@ import { BrandLogo } from "../../../assets/icons/brand-logo"
 
 import { Navigation } from "./navigation"
 import { UserDropDown } from "./drop-down"
-import { BurgerMenuDropdown } from "./burger-menu-drop-down"
+import { BurgerMenuDropdown } from "../mobile/burger-menu-drop-down"
 
 
 export const Header = () => {

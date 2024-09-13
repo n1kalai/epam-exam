@@ -1,5 +1,5 @@
 
-import { House, TrendingUp } from 'lucide-react'
+import { House, TrendingUp, CircleHelp } from 'lucide-react'
 
 export const NAV_ITEMS = [
     {
@@ -36,7 +36,7 @@ export const NAV_ITEMS = [
     {
         title: "FAQ",
         url: "/",
-        icon: TrendingUp 
+        icon: CircleHelp 
     },
 
 ]
