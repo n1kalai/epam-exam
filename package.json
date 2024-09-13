@@ -42,7 +42,7 @@
   },
   "lint-staged": {
     "*.{js,css,ts,tsx,jsx}": [
-      "eslint --fix"
+      "eslint --fix", "git add"
     ]
   },
   "husky": {
