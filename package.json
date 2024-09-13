@@ -44,5 +44,11 @@
     "*.{js,css,ts,tsx,jsx}": [
       "eslint --fix"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run test"
+    }
   }
 }
